@@ -29,6 +29,11 @@ body { min-height: 100vh; }
 		height: 100%;
 	}
 }
+/* make images flexible */
+img {
+    max-width: 100%;
+    height: auto;
+}
 body {
     min-height: 100vh;
     min-width: 100%;
@@ -505,3 +510,4 @@ span {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
