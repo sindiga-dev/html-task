@@ -86,7 +86,60 @@ body {
 	font-family: "Oleo Script", cursive;
 }
 
+.revenue {
+   /* add wireframe */
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #FAFAFA;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+        
+   
+}
+/* add link to a print stylesheet */
+@media print {
+    .revenue {
+        border: none;
+        box-shadow: none;
+    }
+}
 
+/* styling the data table */
+
+.data-table {
+    width: 100%;
+  }
+  
+  .data-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .data-table th,
+  .data-table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  .data-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .data-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .data-table tbody tr:hover {
+    background-color: #e6e6e6;
+  }
+  
+  
 .btn {
 	border: none;
 	background-color: #2549d3;
@@ -444,43 +497,11 @@ span {
 }
 
 
-.footer {
-	height: 600;
-	background-color: #0f298b;
-	max-width: 1024;
-	padding-top: 100px;
-}
-
-.footer{
-	display: flex;
-	justify-content: space-between;
-	margin: auto;
-	padding: 80px;
-	padding-top: 40px;
-}
-.fdetails {
-	width: 20%;
-}
-.fdetails > h2 {
-	color: #FAFAFA;
-	padding-right: 20px;
-	padding-bottom: 5px
-}
-.flogo {
-	color: #FAFAFA;
-	font-size: 13px;
-}
-.fdetails > ul > li {
-	list-style: none;
-	margin-top: 20px;
-}
-.fdetails > ul > li a {
-	text-decoration: none;
-	margin-top: 20px;
-	color: #FAFAFA;
-	font-size: 15px;
-}
-.fdetails > p {
-	color: #FAFAFA;
-	font-size: 15px;
+/* align mylist to the center */
+.mylist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
